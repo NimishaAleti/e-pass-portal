@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+
+<div >
+    <form method="post" action="/login_page">
+        <label> First Name :</label><input type="text" name='fname' placeholder="First Name" required><br><br>
+        <label> Last Name :</label><input type="text" name="name" placeholder="Last Name" required><br><br>
+        <label> Email Id :</label><input type="text" name="email" placeholder="Email" required><br><br>
+        <label> Source state :</label><input type="text" name="source_state" placeholder="source_state" required><br><br>
+        <label> Source District :</label><input type="text" name="source" placeholder="traveling_from" required><br><br>
+        <label>Destination State :</label><input type="text" name="dest_state" placeholder="destination_state" required><br><br>
+        <label>Destination District :</label><input type="text" name="destination" placeholder="destination" required><br><br>
+        <label> Mobile Number :</label><input type="number" name="phoneNumber" placeholder="Phone number" required><br><br>
+        <label> Aadhaar Number :</label><input type="number" name="idcard" placeholder="Id proof" required><br><br>
+        <label> Travel Date :</label><input type="text" name="trip" placeholder="travel_date" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+</html>
